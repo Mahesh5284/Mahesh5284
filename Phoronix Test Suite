@@ -1,0 +1,41 @@
+Hi, (i m New to Linux....) currently i am working on Linux distro Ubuntu 20.04.. 
+i was insatlled "phoronix test suite" on my system, due to disk space concern i am installing the tests individually instead of installing the specific suites.
+while installing the test cases individually, i am getting some kind of installation errors. 
+Ex : pts/aom-av1-2.4.0:
+root@jetson:/home/ubuntu/mahesh# phoronix-test-suite install pts/aom-av1-2.4.0
+
+Updated OpenBenchmarking.org Repository Index
+pts: 476 Distinct Tests, 1908 Test Versions, 59 Suites
+    Evaluating External Test Dependencies ..................................
+
+Phoronix Test Suite v10.4.0
+
+    To Install:    pts/aom-av1-2.4.0
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    1 Test To Install
+        3 Files To Download [3324MB]
+        1950MB Of Disk Space Is Needed
+        4 Minutes, 54 Seconds Estimated Install Time
+
+    pts/aom-av1-2.4.0:
+        Test Installation 1 of 1
+        3 Files Needed [3324 MB / 20 Minutes]
+        Downloading: Bosphorus_1920x1080_120fps_420_8bit_YUV_Y4...   [646MB]
+        Estimated Download Time: 4m ........................................
+        Downloading: Bosphorus_3840x2160_120fps_420_8bit_YUV_Y...   [2675MB]
+Estimated Download Time: 16m .......................................
+        Downloading: aom-310.tar.xz                                 [3.14MB]
+        Estimated Download Time: 1m ........................................
+            Checksum Failed: http://www.phoronix-test-suite.com/benchmark-files/aom-310.tar.xz
+    Try downloading the file again (Y/n): n
+            If able to locate the file elsewhere, place it in the download cache and re-run the command.
+
+            Download Cache: /var/lib/phoronix-test-suite/download-cache/
+            File Name: aom-310.tar.xz
+            SHA256: 2f68838fdce56022d867f09a2c612f67a3075e2b15ef64797293358a34dbc9ca
+            Downloading of needed test files failed.
+
+can anyone please help on me the above error.. 
